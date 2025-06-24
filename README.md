@@ -1,6 +1,9 @@
 # behavioural-finance
 
-## Exploratory Data Analysis Insights
+## Overview
+This repository explores two datasets of financial investments and investor personality traits. It looks at the distribution of personality traits and correlations between them and with asset type.
+
+## Exploratory Data Analysis
 
 To meaningfully investigate both the assets and personality datasets, it was necessary to convert investments to the same currency. I applied CurrencyConverter on the assets table, computing a GBP value for each asset by using its current value, currency, and date created. 
 
@@ -55,4 +58,4 @@ Please make a virtual environment, and then `pip install -r requirements.txt`
 
 The code for this project can be run in `behavioural-finance.ipynb`
 
-Further analysis can be found in `data_insights.pdf`# behavioural-finance
+The analysis in the README can also be found in `data_insights.pdf`
